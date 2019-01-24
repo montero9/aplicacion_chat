@@ -1,0 +1,41 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "user": "antonio",
+      "isTyping": "false"
+    },
+    {
+      "id": 2,
+      "user": "pepe",
+      "isTyping": "false"
+    }
+  ],
+  "mensajes": [
+    {
+      "id": 1,
+      "user": "antonio",
+      "content": "Hola soy Antonio"
+    },
+    {
+      "id": 2,
+      "user": "pepe",
+      "content": "Hola soy Pepe"
+    },
+    {
+      "id": "3",
+      "user": "Juan",
+      "content": "asdsd"
+    },
+    {
+      "id": "4",
+      "user": "Juan",
+      "content": "asdsd"
+    },
+    {
+      "id": "5",
+      "user": "Juan",
+      "content": "asdsd"
+    }
+  ]
+}

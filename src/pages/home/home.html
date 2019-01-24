@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <div align="center">
+    <h3>¡Introduce tu nombre y comienza a chatear!</h3>
+    <br />
+    <br />
+  <form (ngSubmit)="comprobarUsuario()">
+    <ion-item>
+      <ion-label>Usuario</ion-label>
+      <ion-input type="text" name="name" maxlength="16" [(ngModel)]="valorIntroducido" required></ion-input>
+    </ion-item>
+<br /><br />
+  <div>
+    <button ion-button>
+      Empezar
+    </button>
+  </div>
+  </form>
+  </div>
+</ion-content>

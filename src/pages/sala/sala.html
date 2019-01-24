@@ -1,0 +1,25 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>sala</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p *ngFor="let mensaje of mensajes">
+    {{mensaje.user}}:<br />
+    {{mensaje.content}}
+  </p>
+
+<div style="  position: absolute;bottom: 0;">
+  <form (ngSubmit)="enviarMensaje('103','Pepe','Prueba 3')">
+    <input type="text" block width="1000" size="30%"  name="escrito" [(ngModel)]="escrito"/>
+       <button ion-button item-right color="primary" style="display:inline">
+         >
+       </button>
+  </form>
+  </div>
+</ion-content>
